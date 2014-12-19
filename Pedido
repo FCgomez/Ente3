@@ -1,10 +1,10 @@
 def numero_ingresado = System.console().readLine("Ingrese Numero (cero fin)- Ejer. 1): ").toInteger()
 while(numero_ingresado != 0) {
     if ((numero_ingresado%2)==0) {
-        println numero_ingresado + " ingresado es un número Par"
+        println numero_ingresado + " es un número Par"
         }
     else {
-        println numero_ingresado + " ingresado es un número Impar"
+        println numero_ingresado + " es un número Impar"
          }
     numero_ingresado = System.console().readLine("Numero (cero fin): ").toInteger()
 }
